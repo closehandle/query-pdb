@@ -24,5 +24,5 @@ ENV BIND_PORT=8080
 ENV DATA_PATH=data
 
 STOPSIGNAL SIGKILL
-ENTRYPOINT ["/usr/bin/docker-entrypoint.sh"]
+ENTRYPOINT ["docker-entrypoint.sh"]
 CMD []
